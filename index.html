@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elderly Treatment</title>
+
+  <!-- Bootstrap & Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section class="hero-section">
+  <div class="shade"></div>
+
+  <!-- Navbar -->
+  <div class="navbar navbar-expand-lg position-fixed w-100 navbar-custom navbar-transparent" style="z-index: 1030;">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Elderly<span class="text-primary">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto me-3">
+          <a class="nav-link me-3" href="#">Home</a>
+          <li class="nav-item dropdown me-3">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Amazing Atmosphere</a></li>
+              <li><a class="dropdown-item" href="#">Hospice Care</a></li>
+            </ul>
+          </li>
+          <a class="nav-link me-3" href="#">Testimonials</a>
+          <a class="nav-link me-3" href="#">Blog</a>
+          <a class="nav-link me-3" href="#">About</a>
+          <a class="nav-link me-3" href="#">Contact</a>
+        </div>
+        <div class="d-flex">
+          <a href="#"><i class="fa-brands fa-facebook-f rounded-circle me-2" style="padding: 8px 11px; border: 1px solid;"></i></a>
+          <a href=""><i class="fa-brands fa-twitter rounded-circle me-2" style="padding: 8px 11px; border: 1px solid;"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in rounded-circle" style="padding: 8px 11px; border: 1px solid;"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Content -->
+  <div class="hero-content">
+    <div class="container">
+      <h1>Expert Care for the <br> Elderly</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Ipsum totam alias iusto?</p>
+      <button class="btn btn-primary-custom">GET IN TOUCH</button>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  window.addEventListener('scroll', function () {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+      navbar.classList.add('navbar-scrolled');
+      navbar.classList.remove('navbar-transparent');
+    } else {
+      navbar.classList.remove('navbar-scrolled');
+      navbar.classList.add('navbar-transparent');
+    }
+  });
+
+  // Run once on load
+  window.dispatchEvent(new Event('scroll'));
+</script>
+
+
+  <!-- Our Services -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row gy-4">
+        <!-- Box 1 -->
+        <div class="col-md-4">
+          <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm h-100">
+            <i class="fa-solid fa-user-tie service-icon me-3"></i>
+            <div>
+              <small class="text-muted">Try Our Services</small>
+              <h6 class="fw-semibold mb-2">Independent Living For Senior Couples</h6>
+              <a href="#" class="text-primary fw-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="col-md-4">
+          <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm h-100">
+            <i class="fa-solid fa-user-nurse service-icon me-3"></i>
+            <div>
+              <small class="text-muted">Try Our Services</small>
+              <h6 class="fw-semibold mb-2">We Are Helping the Senior Elderly People</h6>
+              <a href="#" class="text-primary fw-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="col-md-4">
+          <div class="d-flex align-items-center p-3 bg-white rounded shadow-sm h-100">
+            <i class="fa-solid fa-chair service-icon me-3"></i>
+            <div>
+              <small class="text-muted">Try Our Services</small>
+              <h6 class="fw-semibold mb-2">Senior Home Patient Care Services</h6>
+              <a href="#" class="text-primary fw-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Special Care -->
+
+  <section class="py-5" style="margin-bottom: 70px;">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card border-1">
+            <img src="https://preview.colorlib.com/theme/elderly/images/img_4_sq.jpg" class="card-img-top"
+              alt="Care 1" />
+            <div class="card-body text-center">
+              <h5 class="card-title special-title">Special Care</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card border-1">
+            <img src="https://preview.colorlib.com/theme/elderly/images/img_1_sq.jpg" class="card-img-top"
+              alt="Care 2" />
+            <div class="card-body text-center">
+              <h5 class="card-title special-title">Special Care</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card border-1">
+            <img src="https://preview.colorlib.com/theme/elderly/images/img_2_sq.jpg" class="card-img-top"
+              alt="Care 3" />
+            <div class="card-body text-center">
+              <h5 class="card-title special-title">Special Care</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="card border-1">
+            <img src="https://preview.colorlib.com/theme/elderly/images/img_3_sq.jpg" class="card-img-top"
+              alt="Care 4" />
+            <div class="card-body text-center">
+              <h5 class="card-title special-title">Special Care</h5>
+              <p class="card-text text-muted">Lorem ipsum dolor sit amet elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Availaible -->
+
+      <section class="py-5 avail">
+  <div class="container text-white">
+    <div class="row text-center">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+        <h1 class="display-5">5,890</h1>
+        <p class="a-p">Rooms Available</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-lg-0">
+        <h1 class="display-5">530</h1>
+        <p class="a-p">Nurse Staff</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-0">
+        <h1 class="display-5">4,029</h1>
+        <p class="a-p">Senior Living</p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+        <h1 class="display-5">7,020</h1>
+        <p class="a-p">Happy People</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <br><br><br><br>
+
+
+<section class="senior-care py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left Side Content -->
+      <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+        <h2 class="care1">Senior Care Center is for Your Family</h2>
+        <p class="care-1">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore perspiciatis deleniti,
+          maiores quia aliquam, odit iure aspernatur voluptate delectus ipsa.
+        </p>
+        <div class="d-flex flex-wrap align-items-start gap-3 mt-4">
+          <img class="img-fluid" src="https://preview.colorlib.com/theme/elderly/images/img_3.jpg" alt="" style="width: 45%; height: auto;">
+          <ul class="list-unstyled sec-list">
+            <li><img src="Capture.PNG" alt=""> &nbsp; Consectetur adipisicing elit</li>
+            <li><img src="Capture.PNG" alt=""> &nbsp; Voluptate delectus ipsa</li>
+            <li><img src="Capture.PNG" alt=""> &nbsp; Maiores quia aliquam</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right Side Background Image -->
+      <div class="col-12 col-lg-6">
+        <div class="back-img d-flex align-items-end justify-content-center">
+          <h4 class="img-caption text-white text-center px-4 py-3">
+            You can live here with love
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="goal-section position-relative text-white d-flex align-items-center">
+  <div class="overlay"></div>
+  <div class="container text-center position-relative z-2 py-5">
+    <h1 class="fw-bold display-5">Our Goal is to Make Your <br> Life Better</h1>
+    <div class="row justify-content-center mt-5">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
+        <div class="icon-box mx-auto">
+          <img src="https://preview.colorlib.com/theme/elderly/images/svg/svg/006-elderly-3.svg" alt="" width="50" height="50">
+        </div>
+        <p class="text-white mt-2">Expert Nursing Staff</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
+        <div class="icon-box mx-auto">
+          <img src="https://preview.colorlib.com/theme/elderly/images/svg/svg/005-elderly-2.svg" alt="" width="50" height="50">
+        </div>
+        <p class="text-white mt-2">Senior Living Help</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
+        <div class="icon-box mx-auto">
+          <img src="https://preview.colorlib.com/theme/elderly/images/svg/svg/004-nurse.svg" alt="" width="50" height="50">
+        </div>
+        <p class="text-white mt-2">Care & Support</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <section class="testimonial-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card">
+            <img src="https://preview.colorlib.com/theme/elderly/images/person_1.jpg" alt="Person">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
+            <div class="testimonial-name">Elizabeth Anderson, Senior</div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card">
+            <img src="https://preview.colorlib.com/theme/elderly/images/person_1.jpg" alt="Person">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
+            <div class="testimonial-name">Elizabeth Anderson, Senior</div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="testimonial-card">
+            <img src="https://preview.colorlib.com/theme/elderly/images/person_1.jpg" alt="Person">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
+            <div class="testimonial-name">Elizabeth Anderson, Senior</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="oppur">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h1>Other Opportunities</h1>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, culpa.</p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Box 1 -->
+        <div class="col-md-3">
+          <div class="card-box">
+            <h4>You can live here with love</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, commodi.</p>
+            <button>LEARN MORE</button>
+          </div>
+        </div>
+
+        <!-- Image 1 -->
+        <div class="col-md-3">
+          <img src="https://preview.colorlib.com/theme/elderly/images/img_3_sq.jpg" alt="Opportunity Image 1">
+        </div>
+
+        <!-- Box 2 -->
+        <div class="col-md-3">
+          <div class="card-box">
+            <h4>You can live here with love</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, commodi.</p>
+            <button>LEARN MORE</button>
+          </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="col-md-3">
+          <img src="https://preview.colorlib.com/theme/elderly/images/img_1_sq.jpg" alt="Opportunity Image 2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="care-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left Side: Full Image -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="https://preview.colorlib.com/theme/elderly/images/about.png" alt="Care Center" class="care-image img-fluid">
+        
+      </div>
+
+      <!-- Right Side: Text Content -->
+      <div class="col-md-6">
+        <h2>Senior & Elder Home Care Center</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique amet nostrum facere hic! Inventore cumque ipsam eum, sit sequi illum.</p>
+        <p>Optio ex ullam eveniet magnam molestiae laborum, dignissimos dolorum ipsam minus, ipsum vel illo aut molestias suscipit voluptatem hic voluptatibus!</p>
+        <h4 class="my-4">“We care for elderly people”</h4>
+        <a href="#" class="btn btn-white">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <section class="news-section">
+    <div class="container">
+      <h2>News & Updates</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, culpa.</p>
+
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img src="https://preview.colorlib.com/theme/elderly/images/img_1.jpg" class="card-img-top"
+              alt="Elderly Care">
+            <div class="card-body">
+              <div class="meta-info">
+                <div><i class="bi bi-calendar-event"></i> 23 Jul</div>
+                <div><i class="bi bi-person-circle"></i> Admin</div>
+                <div><i class="bi bi-chat-dots"></i> 2 Comments</div>
+              </div>
+              <h5 class="card-title">We're Providing the Quality Care</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, laudantium.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img src="https://preview.colorlib.com/theme/elderly/images/img_2.jpg" class="card-img-top"
+              alt="Elderly Care">
+            <div class="card-body">
+              <div class="meta-info">
+                <div><i class="bi bi-calendar-event"></i> 23 Jul</div>
+                <div><i class="bi bi-person-circle"></i> Admin</div>
+                <div><i class="bi bi-chat-dots"></i> 2 Comments</div>
+              </div>
+              <h5 class="card-title">We're Providing the Quality Care</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, laudantium.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+          <div class="card card-custom">
+            <img src="https://preview.colorlib.com/theme/elderly/images/img_3.jpg" class="card-img-top"
+              alt="Elderly Care">
+            <div class="card-body">
+              <div class="meta-info">
+                <div><i class="bi bi-calendar-event"></i> 23 Jul</div>
+                <div><i class="bi bi-person-circle"></i> Admin</div>
+                <div><i class="bi bi-chat-dots"></i> 2 Comments</div>
+              </div>
+              <h5 class="card-title">We're Providing the Quality Care</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, laudantium.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row gy-4">
+      <!-- About -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <h6>About</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cumque tenetur inventore veniam, hic vel ipsa necessitatibus ducimus architecto fugiat!</p>
+        <div class="social-icons mt-3">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-6 col-md-6 col-lg-3">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Amazing Atmosphere</a></li>
+          <li><a href="#">Caring Staff</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Helpful Links -->
+      <div class="col-6 col-md-6 col-lg-3">
+        <h6>Helpful Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Hospice Care</a></li>
+          <li><a href="#">Excellent Cuisine</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <h6>Resources</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Health Care</a></li>
+          <li><a href="#">Elderly Care</a></li>
+          <li><a href="#">Care with Love</a></li>
+          <li><a href="#">Quality Care</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom text-center">
+      <p>
+        &copy; 2025 All rights reserved | This template is made with ❤️ by
+        <a href="#" target="_blank">Uswah Junaid</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
