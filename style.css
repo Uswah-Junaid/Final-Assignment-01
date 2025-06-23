@@ -84,10 +84,6 @@ body {
       color: black !important;
     }
 
-    .navbar .dropdown-menu a {
-      color: black !important;
-    }
-
     .navbar-toggler {
       background-color: rgba(255, 255, 255, 0.7);
       border-radius: 5px;
